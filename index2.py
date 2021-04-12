@@ -9,7 +9,7 @@ class Banking:
         self.userDatabase = []
         print("Welcome to JBANK \n")
         print("What would you like to do ? \n")
-        action = int(float(input('Select 1 to register  Select 2 to login  Select 3 to exit')))
+        action = int(input('Select 1 to register  Select 2 to login  Select 3 to exit'))
         if(action==1):
             self.register()
             exit()
